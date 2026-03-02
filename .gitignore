@@ -1,0 +1,32 @@
+# Dependências do Composer
+/vendor/
+composer.lock
+
+# Arquivo de ambiente (nunca versionar credenciais)
+.env
+.env.local
+.env.*.local
+
+# Cache e logs
+*.log
+*.cache
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários do PHP
+*.php.bak
+/tmp/
+
+# Cobertura de testes
+/coverage/
+.phpunit.cache/
+.phpunit.result.cache
